@@ -131,11 +131,11 @@ a {
 h1 {
   margin: 0;
 
-  font-size: clamp(64px, 10vw, 132px);
+  font-size: clamp(48px, 7vw, 86px);
 
-  line-height: 0.92;
+  line-height: 1;
 
-  letter-spacing: -5px;
+  letter-spacing: -3px;
 
   font-weight: 800;
 }
@@ -150,25 +150,22 @@ h1 {
 }
 
 .hero-text {
-  max-width: 920px;
+  max-width: 800px;
 
-  margin: 0 0 16px;
+  margin: 0 0 14px;
 
   color: #e0e3e5;
 
-  font-size: clamp(20px, 2.2vw, 30px);
+  font-size: clamp(17px, 1.5vw, 21px);
 
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .hero-text.secondary {
   color: #aeb4b9;
 
-  font-size: clamp(18px, 2vw, 25px);
+  font-size: clamp(15px, 1.3vw, 18px);
 }
-
-
-
    /* BUTTONS */
 
 
@@ -251,9 +248,9 @@ h1 {
 .project-grid {
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 
-  gap: 28px;
+  gap: 50px;
 
   margin-top: 55px;
 }
@@ -608,19 +605,21 @@ footer p {
 
 
   h1 {
-    font-size: 62px;
+  font-size: 42px;
 
-    letter-spacing: -3px;
-  }
+  letter-spacing: -1.5px;
+
+  white-space: nowrap;
+}
 
 
-  .hero-text {
-    font-size: 19px;
-  }
+.hero-text {
+  font-size: 16px;
+}
 
-  .hero-text.secondary {
-    font-size: 17px;
-  }
+.hero-text.secondary {
+  font-size: 15px;
+}
 
 
   .buttons {
@@ -652,10 +651,17 @@ footer p {
   }
 
 
-  .project-content p {
+  /* .project-content p {
     min-height: auto;
-  }
+  } */
 
+  .project-content p {
+    margin: 0;
+
+    color: #aeb4b9;
+
+     line-height: 1.6;
+  }
 
   .top-button {
     right: 18px;

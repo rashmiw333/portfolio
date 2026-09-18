@@ -13,7 +13,7 @@ const projects = [
     image: "/anvaya_crm.png",
     description:
       "A full-stack lead management CRM for tracking leads through sales stages, assigning sales agents, adding comments, and viewing pipeline reports.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Chart.js"],
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Chart.js"],
     demo: "https://anvaya-front-end.vercel.app/",
     code: "https://github.com/rashmiw333/Anvaya-FrontEnd"
   },
@@ -22,18 +22,9 @@ const projects = [
     image: "/electromart-application.png",
     description:
       "An electronics shopping application with product search, category and rating filters, sorting, product details, wishlist, cart management and backend integration.",
-    tech: ["React", "Bootstrap", "Node.js", "Express", "MongoDB"],
+    tech: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
     demo: "https://e-commerce-front-end-tawny.vercel.app/",
     code: "https://github.com/rashmiw333/E-Commerce-FrontEnd"
-  },
-  {
-    title: "Meetup Application",
-    image: "/meetup-application.png",
-    description:
-      "An event discovery application with search, online/offline filtering, event detail pages, responsive cards and a MongoDB-backed REST API.",
-    tech: ["React", "React Router", "Bootstrap", "Express", "MongoDB"],
-    demo: "https://meetup-frontend-ten.vercel.app/",
-    code: "https://github.com/rashmiw333/MeetUp-FrontEnd"
   }
 ];
 
@@ -87,22 +78,18 @@ function App() {
             FULL-STACK DEVELOPER
           </p>
 
-          <h1>
-            Rashmi
-            <br />
-            Wankhade
-          </h1>
+          <h1>Rashmi Wankhade</h1>
 
           <div className="accent-line"></div>
 
           <p className="hero-text">
-            Full-stack developer building practical, user-focused web
-            applications with React, Node.js and MongoDB.
+            Full-stack developer creating practical web applications with React,
+            Node.js and MongoDB.
           </p>
 
           <p className="hero-text secondary">
-            I enjoy turning requirements into clean interfaces, REST APIs and
-            complete full-stack projects.
+            I enjoy turning ideas into responsive interfaces, REST APIs and
+            complete full-stack applications.
           </p>
 
           <div className="buttons">
@@ -115,7 +102,7 @@ function App() {
             </a>
 
             <a
-              href="/Rashmi_Wankhade_Resume.pdf"
+              href="/Rashmi_Wankhade_Resume_New.pdf"
               className="button secondary-button"
               target="_blank"
               rel="noreferrer"
@@ -142,7 +129,7 @@ function App() {
             </h2>
 
             <p>
-              Building solutions that solve real-world problems
+              Selected full-stack projects and practical web applications
             </p>
 
             <div className="accent-line small"></div>
