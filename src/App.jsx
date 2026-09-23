@@ -102,7 +102,7 @@ function App() {
             </a>
 
             <a
-              href="/Rashmi Wankhade_Resume.pdf"
+              href="/Rashmi_Wankhade_Resume.pdf"
               className="button secondary-button"
               target="_blank"
               rel="noreferrer"
