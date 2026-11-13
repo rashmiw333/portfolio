@@ -25,7 +25,21 @@ const projects = [
     tech: ["React", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
     demo: "https://e-commerce-front-end-tawny.vercel.app/",
     code: "https://github.com/rashmiw333/E-Commerce-FrontEnd"
-  }
+  },
+  {
+  title: "Workasana",
+  image: "/worksana_app.png",
+  description:
+    "A full-stack task management and team collaboration application for managing projects,organizing teams, assigning tasks, tracking deadlines, and monitoring work progress through reports.",
+  tech: [
+    "React",
+    "Bootstrap",
+    "Node.js",
+    "Express.js",
+    "MongoDB","Chart.js"],
+  demo: "https://worksana-app.vercel.app/",
+  code: "https://github.com/rashmiw333/Worksana"
+}
 ];
 
 const skills = [
@@ -102,7 +116,7 @@ function App() {
             </a>
 
             <a
-              href="/Rashmi_Wankhade_Resume.pdf"
+              href="/Rashmi_Wankhade_ResumeOne.pdf"
               className="button secondary-button"
               target="_blank"
               rel="noreferrer"
